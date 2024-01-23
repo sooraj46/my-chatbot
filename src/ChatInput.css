@@ -1,0 +1,33 @@
+/* ChatInput.css */
+
+.chat-input-form {
+    display: flex;
+    padding: 12px;
+    background-color: #40444b; /* Lighter dark grey for the input area */
+  }
+  
+  .chat-input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #555; /* Dark border for the input field */
+    border-radius: 18px;
+    background-color: #202225; /* Matching the message area background */
+    color: #dcddde; /* Light text color for the input */
+    margin-right: 10px; /* Space between the input and the send button */
+    outline: none;
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    background-color: #0b93f6; /* Blue to match the user message bubble */
+    color: white;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .send-button:hover {
+    background-color: #007ace; /* A slightly darker blue for the hover state */
+  }
+  
